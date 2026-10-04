@@ -1,0 +1,37 @@
+{
+  "invoice": {
+    "docId": "a",
+    "number": "FAC-42",
+    "totalCents": 10000
+  },
+  "existingNumbers": [],
+  "rejection": {
+    "docId": "b",
+    "status": "RECYCLEE",
+    "code": "DEST_INC",
+    "message": "La facture a été adressée à la mauvaise structure destinataire."
+  },
+  "id": "jev-chorus-rejection-repair-dev-paraphrase",
+  "documents": [
+    {
+      "id": "a",
+      "text": "dossier.invoice : {\"number\": \"FAC-42\", \"totalCents\": 10000}",
+      "source": {
+        "uri": "fixture:a",
+        "date": "2026-10-04",
+        "licence": "CC0",
+        "kind": "synthetique"
+      }
+    },
+    {
+      "id": "b",
+      "text": "dossier.rejection : {\"status\": \"RECYCLEE\", \"code\": \"DEST_INC\", \"message\": \"La facture a été adressée à la mauvaise structure destinataire.\"}",
+      "source": {
+        "uri": "fixture:b",
+        "date": "2026-10-04",
+        "licence": "CC0",
+        "kind": "synthetique"
+      }
+    }
+  ]
+}
